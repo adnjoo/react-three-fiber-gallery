@@ -8,8 +8,8 @@ import './styles.css'
 
 const images = [
   'https://raw.githubusercontent.com/adnjoo/artExplorer/main/assets/mona2.png',
-  // 'https://static.frieze.com/files/styles/frieze_teaser/public/article/thumbnail/editorial-articles-richardserra1-0.png'
-  'https://d5wt70d4gnm1t.cloudfront.net/media/a-s/artworks/takashi-murakami/71970-839162486768/takashi-murakami-a-little-flower-painting-yellow-white-and-purple-f-800x800.jpg'
+  'https://raw.githubusercontent.com/adnjoo/react-three-fiber-gallery/main/assets/murakami.jpeg',
+  'https://raw.githubusercontent.com/adnjoo/react-three-fiber-gallery/main/assets/starry.jpeg'
 ]
 let counter = 0;
 
@@ -27,6 +27,7 @@ function App() {
       console.log('test')
       if(counter+1==images.length){
         counter=0
+        setImage(images[counter])
         return
       }
       counter++
