@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-three-fiber-image/static/css/main.5d5b6e97.chunk.css",
-    "main.js": "/react-three-fiber-image/static/js/main.bcf69110.chunk.js",
-    "main.js.map": "/react-three-fiber-image/static/js/main.bcf69110.chunk.js.map",
-    "runtime~main.js": "/react-three-fiber-image/static/js/runtime~main.24c1d5c3.js",
-    "runtime~main.js.map": "/react-three-fiber-image/static/js/runtime~main.24c1d5c3.js.map",
-    "static/js/2.17f9faab.chunk.js": "/react-three-fiber-image/static/js/2.17f9faab.chunk.js",
-    "static/js/2.17f9faab.chunk.js.map": "/react-three-fiber-image/static/js/2.17f9faab.chunk.js.map",
-    "index.html": "/react-three-fiber-image/index.html",
-    "precache-manifest.9edc7d3c625e8d5b88fcf1ccb837e952.js": "/react-three-fiber-image/precache-manifest.9edc7d3c625e8d5b88fcf1ccb837e952.js",
-    "service-worker.js": "/react-three-fiber-image/service-worker.js",
-    "static/css/main.5d5b6e97.chunk.css.map": "/react-three-fiber-image/static/css/main.5d5b6e97.chunk.css.map"
+    "main.css": "/react-three-fiber-gallery/static/css/main.5d5b6e97.chunk.css",
+    "main.js": "/react-three-fiber-gallery/static/js/main.7a09813d.chunk.js",
+    "main.js.map": "/react-three-fiber-gallery/static/js/main.7a09813d.chunk.js.map",
+    "runtime~main.js": "/react-three-fiber-gallery/static/js/runtime~main.8012d20e.js",
+    "runtime~main.js.map": "/react-three-fiber-gallery/static/js/runtime~main.8012d20e.js.map",
+    "static/js/2.8e9938b6.chunk.js": "/react-three-fiber-gallery/static/js/2.8e9938b6.chunk.js",
+    "static/js/2.8e9938b6.chunk.js.map": "/react-three-fiber-gallery/static/js/2.8e9938b6.chunk.js.map",
+    "index.html": "/react-three-fiber-gallery/index.html",
+    "precache-manifest.d18341e8de32abe7b625f654295a368e.js": "/react-three-fiber-gallery/precache-manifest.d18341e8de32abe7b625f654295a368e.js",
+    "service-worker.js": "/react-three-fiber-gallery/service-worker.js",
+    "static/css/main.5d5b6e97.chunk.css.map": "/react-three-fiber-gallery/static/css/main.5d5b6e97.chunk.css.map"
   }
 }
