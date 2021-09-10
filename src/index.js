@@ -34,8 +34,8 @@ function App() {
     <div
       className="main"
       style={{
-        position: "relative",
-        width:'100'}}
+        position: "relative"
+      }}
       onMouseMove={({ clientX, clientY }) => {
         const x = (clientX / window.innerWidth) * 2 - 1
         const y = -(clientY / window.innerHeight) * 2 + 1
