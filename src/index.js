@@ -4,7 +4,6 @@ import { useSpring, animated } from 'react-spring/three'
 import React, { useMemo, useState } from 'react'
 import { Canvas } from 'react-three-fiber'
 import { HoverImageShader } from './shaders/HoverImageShader'
-import './styles.css'
 
 const images = [
   'https://raw.githubusercontent.com/adnjoo/artExplorer/main/assets/mona2.png',
@@ -14,8 +13,6 @@ const images = [
   'https://raw.githubusercontent.com/adnjoo/react-three-fiber-gallery/main/assets/starry.jpeg'
 ]
 let counter = 0;
-
-
 
 function App() {
   function Image({ url, ...props }) {
@@ -59,6 +56,9 @@ function App() {
     <div
       className="main"
       style={{
+        margin: "auto",
+        /* width: 30%; */
+        height: "800px",
         position: "relative"
       }}
       onMouseMove={({ clientX, clientY }) => {
