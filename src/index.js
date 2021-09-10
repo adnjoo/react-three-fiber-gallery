@@ -14,8 +14,15 @@ function Image({ url, ...props }) {
     return [loader.load(url)]
   }, [url])
 
+  const changeImage = () => {
+    console.log('changeImage')
+  }
+
   return (
-    <animated.mesh {...props}>
+    <animated.mesh
+     {...props}
+     onClick={(e)=>changeImage()}
+     >
       <planeBufferGeometry attach="geometry" args={[5, 7]} />
       <animated.shaderMaterial attach="material" transparent args={[HoverImageShader]} uniforms-texture-value={texture} />
     </animated.mesh>
