@@ -8,6 +8,8 @@ import './styles.css'
 
 const images = [
   'https://raw.githubusercontent.com/adnjoo/artExplorer/main/assets/mona2.png',
+  'https://raw.githubusercontent.com/adnjoo/react-three-fiber-gallery/main/assets/ape.jpg',
+  'https://raw.githubusercontent.com/adnjoo/react-three-fiber-gallery/main/assets/picasso.jpeg',
   'https://raw.githubusercontent.com/adnjoo/react-three-fiber-gallery/main/assets/murakami.jpeg',
   'https://raw.githubusercontent.com/adnjoo/react-three-fiber-gallery/main/assets/starry.jpeg'
 ]
@@ -75,7 +77,7 @@ function App() {
           background: '#272727',
 
         }}
-        camera={{ fov: 75, position: [0, 0, 7] }}>
+        camera={{ fov: 65, position: [0, 0, 7] }}>
         <Image url={image} {...props} />
       </Canvas>
     </div>
